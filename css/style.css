@@ -1,0 +1,129 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* backgrounds and fonts */
+h1{font-size: 2em;}
+h2{font-size: 1.75em}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+.container {
+    max-width: 1400px; 
+    margin: auto;
+}
+
+* {
+    background-color: black;}
+
+* {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;}
+
+
+/* diseño header comun a todas las pags */
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-evenly;
+    }
+
+body header nav a {
+    color: greenyellow; 
+    text-decoration: none;}
+
+body header nav a:nth-child(2) {color: fuchsia;}
+ /* termina diseño header */
+
+ /* edicion color y fuentes */
+main h1 {
+    color: greenyellow;}
+
+main h2 {
+    color: fuchsia;}
+
+main p {
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;}
+
+
+main div h1 {
+    color: greenyellow;}
+
+main div h2 {
+    color: white; 
+    font-weight: 700;}
+
+main div p {
+    color: white ;
+    font-family: 'Satisfy', cursive}
+
+section h2 {
+    color:white}
+
+section p {
+    color: white;}
+
+main div ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: greenyellow;}
+
+
+iframe {
+    background-color: black; 
+    background-size:cover;}
+
+/* fin edicion color y fuentes */
+
+/* edicion footer comun a todo el sitio */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* fin edicion footer */
+
+/* edicion body*/
+
+.index__main {
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.job__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job__main__div {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.job__main__div__ul {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
