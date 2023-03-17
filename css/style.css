@@ -35,10 +35,10 @@ header {
     justify-content: space-evenly;
     }
 
-body header nav a {
+header nav a {
     color: greenyellow; 
     text-decoration: none;
-    font-weight: 700;}
+    }
 
 body header nav a:nth-child(2) {color: fuchsia;}
 
