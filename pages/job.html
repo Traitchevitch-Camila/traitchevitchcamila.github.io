@@ -4,81 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/a15ae0ba24c2458bb32179c10270e998 (2) (2).png" type="image/x-icon">
     <!--fonts de google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Satisfy&display=swap" rel="stylesheet">
     <title>Work Esperience</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="container">
+<body>
 
+    <header>
+        <!-- nav bootstrap -->
+             
+                <nav class="navbar navbar-expand-lg nav-color">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html"><img src="../images/3.png" alt="camila traitchevitch portfolio"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse flex-list" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link color-font-green-nav" href="./pages/about.html">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-fuchsia-nav" href="./pages/job.html">Job</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-green-nav" href="./pages/studies.html">Studies</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-fuchsia-nav" href="./pages/contact.html">Contact</a>
+                          </li>
+                    </ul>
+               </div>
+          </div>
+       </nav>
+    </header> 
 
-    <header class="container">
-
-        <a href="../index.html"><img src="../images/logo2.png" alt="logo porfolio camila Traitchevitch"></a>
-        
-        <nav>
-            <a href="./about.html">About</a>                   
-           <a href="./job.html">Job</a></li>
-           <a href="./studies.html">Studies</a></li>
-           <a href="./contact.html">Contact</a></li>
-       
-        </nav>
-
-   </header>   
     
-    <h1>Work experience</h1>
+    
+    <main class="container-fluid">
+        <div class="row">
+            <h1>Work experience</h1>
 
-    <main class="job__main">
+            <div class="col-12 div-job">
+              <h2>English Teacher</h2>
 
-        <div class="job__main__div">
+                <div class="col-12 pics-lists">
 
-            <h2>English Teacher</h2>
-
-            <img src="../images/teacher.jpg" alt="lentes de profesor y lapicero arriba de libros frente a un pizarron">
-
-            <ul class="job__main__div__ul">
-
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-
-            </ul>
-
-        </div>
-
-        <div class="job__main__div">
+                    <div class="col-lg-2 col-12 ">
+                        <img src="../images/teacher.jpg" alt="lentes de profesor y lapicero arriba de libros frente a un pizarron">
+                    </div>
+                        
+                    <div class="col-lg-8 col-12">
+                    
+                        <ul class="job-lists">
             
-            <h2>Full Stack Web Developer</h2>
+                         <li>Instituto Superior Cultural Británico: From 2014 until now. <br>Taught different levels of English -from A1 to C1 according to the CEFR- <br>In charge of groups of children, adolescents and adults.</li>
+                         <li>Latinoamérica School: From 2019 to 2021. <br>In charge of Kindergarten and First grade from primary school. </li>
+                         <li>Global-T: From 2018 to 2021. <br>Taught diffent levels of English -from A1 to B2 according to the CEFR-</li>
+                
+                        </ul>
+                    </div>
+               </div>    
+            </div>
+            <div class="col-12 div-job">
+                <h2>Full Stack Web Developer</h2>
+  
+                <div class="col-12 pics-lists">
+  
+                    <div class="col-lg-2 col-12 ">
+                          <img src="../images/webdev.jpg" alt="computer with html coding web development">
+                    </div>
+                          
+                    <div class="col-lg-8 col-12">
+                      
+                        <ul class="job-lists">
+              
+                            <li>Freelance developer: Started in January 2023.</li>
+                  
+                        </ul>
 
-            <img src="../images/webdev.jpg" alt="computadora con codigos en pantalla sobre un escritorio">
-            
-            <ul class="job__main__div__ul">
-
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nisi ipsum dolores a numquam, fuga</li>
-
-            </ul>
-
+                    </div> 
+                </div>    
+            </div>
         </div>
-
     </main>
     
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 <footer>
 
-    <div>
+    <div class="footer">
 
-        <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226"> <img src="../images/iconolinkedin.png" alt="icono linkedin"></a>    
-
-        <a href="https://wa.me/541528676108"><img src="../images/iconowhatsapp.png" alt="icono whatsapp"></a>
-
-        <a href="mailto:camila.traitchevitch@hotmail.com"><img src="../images/iconooutlook.png" alt="icono para email directo"></a>
+        <div class="footer-div">
+            <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226" target="_blank"> <img src="../images/iconolinkedins.png" alt="icono linkedin"></a>    
+            <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226">www.linkedin.com/in/camila-traitchevitch-a44abb226</a>
+        </div>
+        <div>
+            <a href="https://wa.me/541528676108" target="_blank"><img src="../images/iconowhatsapps.png" alt="icono whatsapp"></a>
+            <a href="https://wa.me/541528676108">https://wa.me/541528676108</a>
+        </div>
+        <div>
+            <a href="mailto:camila.traitchevitch@hotmail.com" target="_blank"><img src="../images/iconooutlooks.png" alt="icono para email directo"></a>
+            <a href="mailto:camila.traitchevitch@hotmail.com">mailto:camila.traitchevitch@hotmail.com</a>
+        </div>
         
+        
+
     </div>
 
 </footer>

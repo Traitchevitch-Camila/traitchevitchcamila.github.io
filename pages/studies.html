@@ -4,91 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-   <!--fonts de google-->
+    <link rel="shortcut icon" href="./images/a15ae0ba24c2458bb32179c10270e998 (2) (2).png" type="image/x-icon">
+    <!--fonts de google-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Satisfy&display=swap" rel="stylesheet">
     <title>Academic Development</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <header class="container">
-
-        <a href="../index.html"><img src="../images/logo2.png" alt="logo porfolio camila Traitchevitch"></a>
+    <header>
+        <!-- nav bootstrap -->
+             
+                <nav class="navbar navbar-expand-lg nav-color">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html"><img src="../images/3.png" alt="camila traitchevitch portfolio"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse flex-list" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link color-font-green-nav" href="./pages/about.html">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-fuchsia-nav" href="./pages/job.html">Job</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-green-nav" href="./pages/studies.html">Studies</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-font-fuchsia-nav" href="./pages/contact.html">Contact</a>
+                          </li>
+                        </ul>
+                 </div>
+           </div>
+      </nav>
         
-        <nav>
-            <a href="./about.html">About</a>                   
-           <a href="./job.html">Job</a></li>
-           <a href="./studies.html">Studies</a></li>
-           <a href="./contact.html">Contact</a></li>
-       
-        </nav>
-
-   </header>     
+  </header> 
 
 
-    <main>
+    <main class="container-fluid studies-main-flex">
 
         <h1>Education</h1>
 
-        <h2>“Education is the most powerful weappon we can use to change the world” <br> -Nelson Mandela</h2>
+        <h2>“Education is the most powerful weapon we can use to change the world” <br> -Nelson Mandela</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jDPSosE4Ogs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jDPSosE4Ogs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        </div>
+        
     </main>
 
-    <section>
+    <section class="studies-section-style">
 
         <h1>Academic Information</h1>
 
-        <ul> 
-            <li>
-                <h2>English Teachers Training College</h2>
-                
-                <img src="../images/profesorado.jpg" alt="estudiantes de `profesorado alrededor de pizarron con tizas y cafe">
-                
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus consequatur perferendis quod, quam repudiandae iusto?
+        <div class="container-fluid">
+            <div class="row cards-studies">
 
-                </p>
-            </li>       
+                <div class="card col-lg-2 col-12 style-card-studies" style="width: 18rem;">
+                    <img src="../images/profesorado.jpg" class="card-img-top" alt="a group of teachers to be about a board with chalk and coffee">
+                    <div class="card-body">
+                          <h5 class="card-title">English Teacher Training College</h5>
+                        <p class="card-text"> Graduated from Instituto Superior Cultural Britanico. </p>
+                   </div>
+                </div>
+      
+      
+                <div class="card col-lg-2 col-12 style-card-studies" style="width: 18rem;">
+                    <img src="../images/ingenieria.jpg" class="card-img-top" alt="Engineering tools on a working desk">
+                    <div class="card-body">
+                        <h5 class="card-title">Industrial Engineering</h5>
+                        <p class="card-text">Currently studying the first year at Universidad Nacional General Sarmiento. </p>
+                    </div>
+                </div>
+      
 
-            <li>
-                <h2>Industrial Engineering</h2>
-               
-                <img src="../images/ingenieria.jpg" alt="herramientas de ingeniero en mesa de trabajo">
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus delectus nam aut tenetur facilis?
-                </p>
-            </li>
+                <div class="card col-lg-2 col-12 style-card-studies" style="width: 18rem;">
+                    <img src="../images/coding.png" class="card-img-top" alt="scren with html coding">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Stack Web Development</h5>
+                        <p class="card-text"> Currently studying at Coderhouse Web Platform.</p>
+                    </div>
+                </div>
 
-            <li>
-                <h2>Full Stack Web Development</h2>
-
-                <img src="../images/coding.png" alt="pantalla con codigos html programacion">
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ab pariatur veritatis ipsum temporibus animi?
-
-                </p>
-            </li>    
-
-        </ul>
+            </div>
+        </div>
 
     </section>
-    
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 <footer>
 
-    <div>
+    <div class="footer">
 
-        <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226"> <img src="../images/iconolinkedin.png" alt="icono linkedin"></a>    
-
-        <a href="https://wa.me/541528676108"><img src="../images/iconowhatsapp.png" alt="icono whatsapp"></a>
-
-        <a href="mailto:camila.traitchevitch@hotmail.com"><img src="../images/iconooutlook.png" alt="icono para email directo"></a>
+        <div class="footer-div">
+            <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226" target="_blank"> <img src="../images/iconolinkedins.png" alt="icono linkedin"></a>    
+            <a href="www.linkedin.com/in/camila-traitchevitch-a44abb226">www.linkedin.com/in/camila-traitchevitch-a44abb226</a>
+        </div>
+        <div>
+            <a href="https://wa.me/541528676108" target="_blank"><img src="../images/iconowhatsapps.png" alt="icono whatsapp"></a>
+            <a href="https://wa.me/541528676108">https://wa.me/541528676108</a>
+        </div>
+        <div>
+            <a href="mailto:camila.traitchevitch@hotmail.com" target="_blank"><img src="../images/iconooutlooks.png" alt="icono para email directo"></a>
+            <a href="mailto:camila.traitchevitch@hotmail.com">mailto:camila.traitchevitch@hotmail.com</a>
+        </div>
         
+        
+
     </div>
 
 </footer>
