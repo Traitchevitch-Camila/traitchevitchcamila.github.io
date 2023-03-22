@@ -87,7 +87,7 @@ section h1 {
 
 iframe {
     background-color: black;
-    size: 50%;
+    size: 80%;
 }
 
 /* fin edicion color y fuentes */
@@ -97,7 +97,8 @@ iframe {
 .footer {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    justify-content: center;
+
     flex-wrap: wrap;
     gap: 10%;
     padding-top: 2%;
@@ -118,6 +119,7 @@ footer div div a {
     text-decoration: none;
     text-transform: none;
 }
+
 /* fin edicion footer */
 
 /* edicion body*/
@@ -148,6 +150,7 @@ footer div div a {
 .div-job {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 5%;
     }
     
@@ -163,9 +166,8 @@ footer div div a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    padding-bottom: 10%;
 }
-    /* fin job */
+   /* fin job */
 
     /* studies */
 
