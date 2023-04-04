@@ -31,13 +31,13 @@ main div h1 .div-job main div div h2, .index-main-div-flex main div h1 main div 
 .nav-color .flex-list {
   justify-content: end;
 }
-.nav-color .flex-list .navbar-nav:hover {
+.nav-color .flex-list .navbar-nav a:hover {
   color: aquamarine;
 }
-.nav-color .flex-list .navbar-nav:hover .color-font-green-nav {
+.nav-color .flex-list .navbar-nav a:hover .color-font-green-nav {
   color: greenyellow;
 }
-.nav-color .flex-list .navbar-nav:hover .color-font-green-nav .color-font-fuchsia-nav {
+.nav-color .flex-list .navbar-nav a:hover .color-font-green-nav .color-font-fuchsia-nav {
   color: fuchsia;
 }
 

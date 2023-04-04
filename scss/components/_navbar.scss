@@ -3,8 +3,8 @@
     .flex-list{
         @extend %dflexrow;
         justify-content: end;
-        .navbar-nav:hover{
-            color: nth($colores, 3);
+        .navbar-nav a:hover{
+            color:nth($colores, 3);
             .color-font-green-nav{
                 color: nth($colores, 1);
                 .color-font-fuchsia-nav{
