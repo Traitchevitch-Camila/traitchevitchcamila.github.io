@@ -3,7 +3,7 @@
     main div div h1{
         @extend %titlefuchsia;
         .links-contact{
-            @extend %dflexrow;
+            display: flex;
             justify-content: center;
             justify-content: space-evenly;
             flex-wrap: wrap;

@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.iframe, .contact-div main div div h1 .links-contact, main div h1 .div-job main div div h2 .pic-lists, .footer .footer-div, .footer, .nav-color .flex-list {
+.iframe, main div h1 .div-job main div div h2 .pic-lists, .footer .footer-div, .footer, .nav-color .flex-list {
   display: flex;
   flex-direction: row;
 }
@@ -35,10 +35,12 @@ main div h1 .div-job main div div h2, .index-main-div-flex main div h1 main div 
   color: aquamarine;
   text-shadow: 5px 5px 5px #0ce9de;
 }
-.nav-color .flex-list .navbar-nav a:hover .color-font-green-nav {
+
+.color-font-green-nav {
   color: greenyellow;
 }
-.nav-color .flex-list .navbar-nav a:hover .color-font-green-nav .color-font-fuchsia-nav {
+
+.color-font-fuchsia-nav {
   color: fuchsia;
 }
 
@@ -108,6 +110,7 @@ main div h1 .div-job main div div h2 .pic-lists .job-lists {
 }
 
 .contact-div main div div h1 .links-contact {
+  display: flex;
   justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
