@@ -33,6 +33,7 @@ main div h1 .div-job main div div h2, .index-main-div-flex main div h1 main div 
 }
 .nav-color .flex-list .navbar-nav a:hover {
   color: aquamarine;
+  text-shadow: 5px 5px 5px #0ce9de;
 }
 .nav-color .flex-list .navbar-nav a:hover .color-font-green-nav {
   color: greenyellow;
