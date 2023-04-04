@@ -2,14 +2,15 @@
     @extend %dflexcolumn;
     main div div h1{
         @extend %titlefuchsia;
-        .links-contact{
-            display: flex;
-            justify-content: center;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            padding-top: 3%;
-        }
     }
+}
+
+.links-contact{
+    @extend %dflexrow;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3%;
 }
 
 .iframe{
