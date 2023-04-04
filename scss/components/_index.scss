@@ -1,0 +1,19 @@
+.index-main-div-flex{
+    @extend %dflexcolumn;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    main div h1{
+        @extend %titlefuchsia;
+        main div div h2{
+            @extend %subtitlegreen;
+            main div ul li{
+                @extend %textinfo;
+                .btn-color{
+                    border-color: fuchsia;
+                    color: fuchsia;
+                }
+            }
+        }
+    }
+}

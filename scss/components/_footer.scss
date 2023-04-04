@@ -1,0 +1,15 @@
+.footer{
+    @extend %dflexrow;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-top: 1px;
+    border-color:nth($colores, 2 );
+    border-top-style: groove;
+    .footer-div{
+        @extend %dflexrow;
+        align-items: flex-start;
+    }
+}

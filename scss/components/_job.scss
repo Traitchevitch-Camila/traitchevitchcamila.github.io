@@ -1,0 +1,24 @@
+main div h1{
+    @extend %titlefuchsia;
+    .div-job{
+        @extend %dflexcolumn;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        main div div h2{
+            @extend %subtitlegreen;
+            .pic-lists{
+                @extend %dflexrow;
+                justify-content: start;
+                align-items: center;
+                .job-lists{
+                    @extend %dflexcolumn;
+                    align-items: flex-start;
+                    justify-content: start;
+                    main div ul li{
+                        @extend %textinfo
+                    }
+                }
+            }
+        }
+    }
+}

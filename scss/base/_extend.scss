@@ -1,0 +1,26 @@
+%dflexcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+%dflexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+%titlefuchsia{
+    color: fuchsia;
+    font-weight: 700;
+}
+
+%subtitlegreen{
+    color: greenyellow;
+    font-weight: 700;   
+}
+
+%textinfo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: greenyellow
+}

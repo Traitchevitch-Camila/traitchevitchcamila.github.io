@@ -1,0 +1,234 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* backgrounds and fonts */
+h1{font-size: 2em;}
+h2{font-size: 1.75em}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+* {
+    background-color: black}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* diseño header comun a todas las pags */
+
+.nav-color {
+    background-color: black;
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.color-font-green-nav {
+    color: greenyellow;
+}
+
+.color-font-fuchsia-nav {
+    color: fuchsia;
+}
+
+.navbar-nav a:hover{
+    color: aquamarine;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(4, 245, 245, 0.623)
+}
+
+ /* termina diseño header */
+
+ /* edicion color y fuentes */  
+
+/* index y job */
+
+
+main div h1 {
+    color: fuchsia;
+    font-weight: 700;
+}
+
+main div div h2 {
+    color: greenyellow;
+    font-weight: 700;    
+}
+
+main div ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: greenyellow
+}
+/* about me */
+section div p {
+    color: greenyellow;
+    font-weight: 700;
+}
+
+ /* studies */
+ main h1 {
+    color: fuchsia;
+}
+
+main h2 {
+    color: greenyellow;
+}
+
+section h1 {
+    color: fuchsia;
+    font-weight: 700;
+}
+
+iframe {
+    background-color: black;
+    size: 80%;
+}
+
+/* fin edicion color y fuentes */
+
+/* edicion footer comun a todo el sitio */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-top: 1px;
+    border-color: fuchsia;
+    border-top-style: groove;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+/* fin edicion footer */
+
+/* edicion body*/
+
+    /* index */
+.index-main-div-flex {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.btn-color {
+    border-color: fuchsia;
+    color: fuchsia;
+}
+    /* fin index */
+
+    /* about */
+ .style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    padding-bottom: 10%;
+
+}
+    /* fin about */
+
+    /* job */
+.div-job {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    }
+    
+.pics-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.job-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+   /* fin job */
+
+    /* studies */
+
+.studies-main-flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+.studies-section-style {
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+.cards-studies { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 3%;
+}
+
+.style-card-studies {
+    background-color:black;
+    border-style:groove; 
+    border-width: 3px;
+    border-color: fuchsia;
+    border: radius 3px;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+/* fin studies */
+
+/* contact */
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+}
+
+.links-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+/* fin contact */
+

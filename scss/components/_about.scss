@@ -1,0 +1,10 @@
+.style{
+    @extend %dflexcolumn;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    padding-bottom: 10%;
+    section div p{
+        @extend %textinfo;
+    }
+}

@@ -1,229 +1,124 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Satisfy', cursive; */
-
-*{
-    margin: 0;
-    padding: 0;
+.contact-div, .studies-section-style section h1 .cards-studies, .studies-main-flex, main div h1 .div-job main div div h2 .pic-lists .job-lists, main div h1 .div-job, .style, .index-main-div-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* backgrounds and fonts */
-h1{font-size: 2em;}
-h2{font-size: 1.75em}
-p{font-size: 1.25em;}
-ul{list-style: none;}
-
-* {
-    background-color: black}
-
-* {
-    font-family: 'Montserrat', sans-serif;
+.iframe, .contact-div main div div h1 .links-contact, main div h1 .div-job main div div h2 .pic-lists, .footer .footer-div, .footer, .nav-color .flex-list {
+  display: flex;
+  flex-direction: row;
 }
 
+.contact-div main div div h1, .studies-section-style section h1, .studies-main-flex main h1, main div h1, .index-main-div-flex main div h1 {
+  color: fuchsia;
+  font-weight: 700;
+}
 
-/* diseño header comun a todas las pags */
+main div h1 .div-job main div div h2, .index-main-div-flex main div h1 main div div h2 {
+  color: greenyellow;
+  font-weight: 700;
+}
+
+.studies-main-flex main h1 main h2, main div h1 .div-job main div div h2 .pic-lists .job-lists main div ul li, .style section div p, .index-main-div-flex main div h1 main div div h2 main div ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: greenyellow;
+}
 
 .nav-color {
-    background-color: black;
+  background-color: black;
 }
-
-.flex-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    flex-wrap: wrap;
+.nav-color .flex-list {
+  justify-content: end;
 }
-
-.color-font-green-nav {
-    color: greenyellow;
+.nav-color .flex-list .navbar-nav:hover {
+  color: aquamarine;
 }
-
-.color-font-fuchsia-nav {
-    color: fuchsia;
+.nav-color .flex-list .navbar-nav:hover .color-font-green-nav {
+  color: greenyellow;
 }
-
-.btn-color {
-    border-color: fuchsia;
-    color: fuchsia;
+.nav-color .flex-list .navbar-nav:hover .color-font-green-nav .color-font-fuchsia-nav {
+  color: fuchsia;
 }
- /* termina diseño header */
-
- /* edicion color y fuentes */
-
-/* index y job */
-main div h1 {
-    color: fuchsia;
-    font-weight: 700;
-}
-
-main div div h2 {
-    color: greenyellow;
-    font-weight: 700;    
-}
-
-main div ul li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: greenyellow
-}
-/* about me */
-section div p {
-    color: greenyellow;
-    font-weight: 700;
-}
-
- /* studies */
- main h1 {
-    color: fuchsia;
-}
-
-main h2 {
-    color: greenyellow;
-}
-
-section h1 {
-    color: fuchsia;
-    font-weight: 700;
-}
-
-iframe {
-    background-color: black;
-    size: 80%;
-}
-
-/* fin edicion color y fuentes */
-
-/* edicion footer comun a todo el sitio */
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    flex-wrap: wrap;
-    gap: 10%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    border-top: 1px;
-    border-color: fuchsia;
-    border-top-style: groove;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  border-top: 1px;
+  border-color: fuchsia;
+  border-top-style: groove;
+}
+.footer .footer-div {
+  align-items: flex-start;
 }
 
-.footer-div {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-footer div div a {
-    color: greenyellow;
-    text-decoration: none;
-    text-transform: none;
-}
-
-/* fin edicion footer */
-
-/* edicion body*/
-
-    /* index */
 .index-main-div-flex {
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
 }
-    /* fin index */
-
-    /* about */
- .style {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
-    padding-bottom: 10%;
-
-}
-    /* fin about */
-
-    /* job */
-.div-job {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 5%;
-    }
-    
-.pics-lists {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+.index-main-div-flex main div h1 main div div h2 main div ul li .btn-color {
+  border-color: fuchsia;
+  color: fuchsia;
 }
 
-.job-lists {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
+.style {
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  padding-bottom: 10%;
 }
-   /* fin job */
-
-    /* studies */
-
+main div h1 .div-job {
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+main div h1 .div-job main div div h2 .pic-lists {
+  justify-content: start;
+  align-items: center;
+}
+main div h1 .div-job main div div h2 .pic-lists .job-lists {
+  align-items: flex-start;
+  justify-content: start;
+}
 .studies-main-flex {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3%;
+  padding-top: 3%;
 }
-
 .studies-section-style {
-    padding-top: 3%;
-    padding-bottom: 10%;
+  padding-top: 3%;
+  padding-bottom: 10%;
 }
-.cards-studies { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-    padding-top: 3%;
+.studies-section-style section h1 .cards-studies {
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  padding-top: 3%;
 }
-
-.style-card-studies {
-    background-color:black;
-    border-style:groove; 
-    border-width: 3px;
-    border-color: fuchsia;
-    border: radius 3px;
-    color: greenyellow;
-    font-weight: 700;
+.studies-section-style section h1 .cards-studies .style-card-studies {
+  background-color: black;
+  border-style: groove;
+  border-width: 3px;
+  border-color: fuchsia;
+  border: radius 3px;
+  color: greenyellow;
+  font-weight: 700;
 }
 
-/* fin studies */
-
-/* contact */
-
-.contact-div {
-    display: flex;
-    justify-content: center;
-}
-
-.links-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 3%;
+.contact-div main div div h1 .links-contact {
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 3%;
 }
 
 .iframe {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 10%;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: black;
+  size: 80%;
 }
 
-/* fin contact */
-
+/*# sourceMappingURL=style.css.map */
